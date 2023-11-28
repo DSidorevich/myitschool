@@ -7,7 +7,7 @@
 # были введены буквы, то обработать исключение.
 
 
-# Вариант 1
+# Variant 1
 while True:
     try:
         number1 = input('Input 1st number: ')
@@ -24,12 +24,12 @@ while True:
         print('Program is complete')
         break
 
-# Вариант 2
+# Variant 2.
 while True:
     try:
         key = input('Input "+" to continue or "stop" to exit the program: ')
         if key == 'stop':
-            print('Program exit')
+            print('Program exit.')
             break
         elif key == '+':
             number1 = input('Input 1st number: ')
